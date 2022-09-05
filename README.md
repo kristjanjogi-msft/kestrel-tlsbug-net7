@@ -3,7 +3,7 @@
 1. Clone the repository:
 `git clone https://github.com/kristjanjogi-msft/kestrel-tlsbug-net7.git`
 
-1. cd .\kestrel-tlsbug-net7\
+1. `cd .\kestrel-tlsbug-net7`
 
 1. Build the Docker image for the server
 `docker build -t kestrelbug -f .\Server\Dockerfile .`
