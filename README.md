@@ -8,10 +8,10 @@
 1. Build the Docker image for the server
 `docker build -t kestrelbug -f .\Server\Dockerfile .`
 
-1. Run the server as a Docker container
+1. Run the server as a Linux Docker container
 `docker run -d --env ASPNETCORE_URLS="https://+" -p 9876:443 kestrelbug`
 
-1. Run the client
+1. Run the client on Windows
 `dotnet run --project .\Client\Client.csproj`
 
 1. Check the server logs
